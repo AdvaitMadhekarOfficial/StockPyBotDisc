@@ -1,6 +1,7 @@
 import discord
-port = int(os.environ.get(“PORT”, 5000))
 import os
+
+port = int(os.environ.get(“PORT”, 5000))
 
 class MyClient(discord.Client):
     async def on_ready(self):
