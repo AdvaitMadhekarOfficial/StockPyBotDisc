@@ -1,4 +1,5 @@
 import discord
+port = int(os.environ.get(“PORT”, 5000))
 import os
 
 class MyClient(discord.Client):
