@@ -17,7 +17,4 @@ class MyClient(discord.Client):
         if message.author.id == self.user.id:
             return
 
-        if message.content.startswith('$$hello'):
-            await message.channel.send('Hello {0.author.mention}'.format(message))
-
 client.run('NjQwMTA0OTg3MDY1NTgxNTgz.XoSLnA.Vvi-bg_SgiOQL60sl2GW0e5hSQ0')
