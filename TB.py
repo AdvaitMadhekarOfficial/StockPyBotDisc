@@ -20,4 +20,4 @@ class MyClient(discord.Client):
         if message.content.startswith('$$hello'):
             await message.channel.send('Hello {0.author.mention}'.format(message))
 
-client.run('NjQwMTA0OTg3MDY1NTgxNTgz.XoSBbg.VW3b3Zh_0nKsrOu-4FZtRgGSGvE')
+client.run('NjQwMTA0OTg3MDY1NTgxNTgz.XoSLnA.Vvi-bg_SgiOQL60sl2GW0e5hSQ0')
