@@ -3,6 +3,8 @@ import os
 
 port = int(os.environ.get('PORT', 5000))
 
+client = discord.Client()
+
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged in as')
