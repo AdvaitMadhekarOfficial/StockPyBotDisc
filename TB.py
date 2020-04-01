@@ -21,4 +21,4 @@ class MyClient(discord.Client):
             await message.channel.send('This bot was made by Conner Black for the purposes of Stock Trading. Any questions about it must be dmed to {0.ConnerBlack.mention}'.format(message))
             
 
-client.run(os.environ['DISCORD_TOKEN'])
+client.run('NjQwMTA0OTg3MDY1NTgxNTgz.XoSBbg.VW3b3Zh_0nKsrOu-4FZtRgGSGvE')
